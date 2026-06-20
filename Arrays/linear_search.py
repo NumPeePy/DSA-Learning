@@ -13,7 +13,7 @@ target = 7
 
 for i in range(n):
     if nums[i] == target:
-        print(f"The given target is at {i} position.")
+        print(f"The given target is at position: {i}")
         break
 else:     
     print(f"Target not Found.")
